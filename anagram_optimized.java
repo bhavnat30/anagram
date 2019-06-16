@@ -37,22 +37,5 @@ public class FindAnagram
  return true;
   }
  
- 
-  public static void main(String args[])
-  {
-
-      char[] str1 = ("listen").toCharArray(); 
-     
-   char[] str2 = ("sileit").toCharArray(); 
-  
-       
- if (isAnagram(str1, str2)) 
-     
-       System.out.println("The two strings are anagram of each other"); 
-  
-      else
-            System.out.println("The two strings are not anagram of each other");
-  }
-
 
 }
